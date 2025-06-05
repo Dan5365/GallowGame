@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Exp.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</head>
+<body background="https://i.pinimg.com/originals/76/74/af/7674afaab0239fcc95db982e75bdc684.jpg">
+     <div class="head-design">
+        <img class="head-img" src="https://habrastorage.org/webt/u5/ch/1l/u5ch1llotxtqrikuzhqeyak4odq.gif" alt="">
+    </div>
+     <div class="alertborder-container">
+<div class="alertborder"></div>
+</div>
+
+    
+<div class="div-gaps-container"></div>
+
+    <div class="stick-container">
+        <div class="gallows hidden">
+            <div class="vertical"></div>
+            <div class="horizontal"></div>
+            <div class="base"></div>
+        </div>
+        <div class="rope hidden"></div>
+        <div class="stick-head hidden"></div>
+        <div class="stick-body hidden"></div>
+        <div class="stick-arm left hidden"></div>
+        <div class="stick-arm right hidden"></div>
+        <div class="stick-leg left hidden" ></div>
+        <div class="stick-leg right hidden"></div>
+    </div>
+    
+<div class="container2">
+   
+    <input class="user-input" type="text" placeholder="Введите букву">
+    
+    <button class="submit-btn" type="submit">Отправить</button>
+<button class="restart">Начать снова</button>
+<button class="continue">Продолжить?</button>
+
+</div>
+
+<div class="others-container">
+<div class="attempts-left">Попыток осталось: 7</div>
+<div class="count-win">Кол-во Выйгрышей: 0</div>
+</div>
+
+<button class="hint"><ion-icon name="bulb-outline"></ion-icon> Подсказку?</button>
+<div class="levels-dropdown">Выбрать уровень сложности:
+<button class="levels" data-level="easy">Легкий уровень</button>
+<button class="levels" data-level="medium">Средний уровень</button>
+<button class="levels" data-level="hard">Сложный уровень</button>
+</div>
+
+<div class="alphabet-container">
+    <div class="row">
+<!--12--><button>Й</button><button>Ц</button><button>У</button><button>К</button><button>Е</button><button>Н</button><button>Г</button><button>Ш</button><button>Щ</button><button>З</button><button>Х</button><button>Ъ</button>
+</div>
+<div class="row">
+<!--11--><button>Ф</button><button>Ы</button><button>В</button><button>А</button><button>П</button><button>Р</button><button>О</button><button>Л</button><button>Д</button><button>Ж</button><button>Э</button>
+</div>
+<div class="row">
+<!--10--><button>Я</button><button>Ч</button><button>С</button><button>М</button><button>И</button><button>Т</button><button>Ь</button><button>Б</button><button>Ю</button>
+</div>
+</div>
+</div>
+
+</body>
+<script type="module" src="querySelectors.js" ></script>
+<script type="module" src="game.js" ></script>
+
+
+</html>
