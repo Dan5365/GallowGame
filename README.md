@@ -60,6 +60,10 @@
 
 Этот проект распространяется под лицензией **MIT**. Используйте свободно!
 
+Скриношот:
+<img width="1894" height="782" alt="{9A295AE8-D729-4CB3-98BD-3DFA80E15463}" src="https://github.com/user-attachments/assets/90762cfa-dfdb-4143-80f1-59c7b76fb403" />
+
+
 ---
 
 > Автор: \[Dan5365]
